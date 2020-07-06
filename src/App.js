@@ -5,6 +5,7 @@ import './App.css'
 import ReaderSetter from './ReaderSetter'
 import ReaderOne from './ReaderOne'
 import ReaderTwo from './ReaderTwo'
+import AsyncReader from './AsyncReader'
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <ReaderSetter />
             <ReaderOne />
             <ReaderTwo />
+            <AsyncReader />
         </div>
     )
 }
